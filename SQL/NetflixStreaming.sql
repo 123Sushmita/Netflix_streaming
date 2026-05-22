@@ -93,10 +93,3 @@ IGNORE 1 ROWS
 
 -- Checking the data 
 select * from view;
-
-
-
-
-
-
-
