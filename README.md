@@ -1,62 +1,59 @@
 📊 Netflix Streaming Analytics Project
-🚀 Project Overview
+🚀 Overview
 
 This project is an end-to-end data analytics solution that simulates a Netflix-style streaming platform. It analyzes user behavior, content performance, and subscription patterns using SQL, Python, and Power BI.
 
-The goal of this project is to demonstrate real-world data analytics workflow including database design, data generation, cleaning, analysis, visualization, and dashboard storytelling.
+The objective is to demonstrate a complete real-world data workflow including database design, data generation, cleaning, analysis, visualization, and dashboard storytelling.
 
 🛠️ Tech Stack
 SQL (MySQL) – Database design, relationships, data loading
 Python – Data generation, cleaning, EDA, feature engineering, forecasting
 Pandas, NumPy – Data manipulation
 Matplotlib, Seaborn – Data visualization
-Scikit-learn – Predictive analysis (Linear Regression)
+Scikit-learn – Predictive modeling (Linear Regression)
 Power BI – Interactive dashboard creation
-🗄️ Database Design (SQL)
+🗄️ Database Design
 
-Created a relational database with multiple connected tables:
+A relational database was created with the following tables:
 
 Users
 Content
 Views
 Payments
 Reviews
-Key SQL Work:
-Primary & Foreign Key relationships
+Key SQL Features:
+Primary & Foreign key relationships
 Data integrity constraints
 Data loading using LOAD DATA INFILE
 Structured schema for analytics use
 🐍 Python Data Engineering
-Data Generation
-Generated realistic streaming dataset using Faker
-Created:
+📌 Data Generation
+Created synthetic streaming dataset using Faker
+Generated:
 100,000+ users
 50,000+ content records
 300,000+ viewing logs
-Data Processing
+📌 Data Processing
 Data cleaning and preprocessing
-Handling datetime conversions
-Removing inconsistencies
-Type casting and missing value handling
+Handling missing values
+Datetime conversion
+Type casting and consistency checks
 📊 Feature Engineering
-
-Created meaningful analytical features such as:
-
 Subscription duration (days)
-Age groups segmentation
-Watch year, month, and weekday
+Age group segmentation
+Watch time breakdown (year, month, weekday)
 Device usage patterns
 Content length categorization
 📈 Exploratory Data Analysis (EDA)
 
-Performed deep analysis on user behavior and content trends:
+Key insights explored:
 
-Top watched titles
-Genre popularity analysis
+Most watched content
+Popular genres
 Ratings distribution
 Watch time trends (daily & monthly)
-Device usage analysis
-Age-based engagement patterns
+Device usage behavior
+User engagement by age group
 Subscription type analysis
 🤖 Predictive Analysis
 Built a Linear Regression model
@@ -64,21 +61,22 @@ Forecasted future watch-time trends
 Analyzed engagement growth patterns over time
 📊 Power BI Dashboard
 
-Created an interactive Netflix-style dashboard including:
+An interactive dashboard was built with:
 
-KPI cards (Total users, content, watch time)
+KPI cards (Users, Content, Watch Time)
 Genre analysis
 Subscription insights
-Watch trends over time
+Time-based watch trends
 Device usage breakdown
 User engagement segmentation
-Interactive filters and storytelling visuals
+Interactive filters for storytelling
 💡 Key Insights
-Identified peak viewing periods based on time and day
-Found most popular genres and content patterns
-Analyzed user engagement by age group and subscription type
-Studied device preferences for streaming behavior
-Tracked subscription lifecycle and retention patterns
+Identified peak viewing hours and days
+Found most popular genres
+Analyzed user engagement behavior
+Studied subscription patterns and retention trends
+Identified device preference for streaming
+
 📁 Project Structure
 Netflix-Streaming-Analytics/
 │
@@ -88,19 +86,13 @@ Netflix-Streaming-Analytics/
 ├── PowerBI/
 ├── Images/
 └── README.md
-🎯 Skills Demonstrated
-SQL Database Design
-Data Engineering
-Python Data Analysis
-Feature Engineering
-Data Visualization
-Business Intelligence
-Predictive Analytics
-End-to-End Data Storytelling
+
+
 🚀 Outcome
 
-This project demonstrates a complete real-world data analytics pipeline from raw data generation to business insights and interactive dashboard creation.
+This project demonstrates a complete end-to-end data analytics pipeline — from data generation to business insights and interactive dashboard creation.
 
 👤 Author
+
 Sushmita Dhital
 Aspiring Data Analyst | SQL | Python | Power BI
