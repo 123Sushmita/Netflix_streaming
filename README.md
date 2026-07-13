@@ -1,13 +1,13 @@
-# 📊 Netflix Streaming Analytics Project
+# Netflix Streaming Analytics Project
 
-## 🚀 Overview
+## Overview
 This project is an end-to-end data analytics solution that simulates a Netflix-style streaming platform. It analyzes user behavior, content performance, and subscription patterns using SQL, Python, and Power BI.
 
 The objective is to demonstrate a complete real-world data workflow including database design, data generation, cleaning, analysis, visualization, and dashboard storytelling.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - SQL (MySQL) – Database design, relationships, data loading  
 - Python – Data generation, cleaning, EDA, feature engineering, forecasting  
 - Pandas, NumPy – Data manipulation  
@@ -17,7 +17,7 @@ The objective is to demonstrate a complete real-world data workflow including da
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 A relational database was created with multiple connected tables:
 
 - Users  
@@ -34,7 +34,7 @@ A relational database was created with multiple connected tables:
 
 ---
 
-## 🐍 Python Data Engineering
+## Python Data Engineering
 
 ### Data Generation
 - Created synthetic streaming dataset using Faker
@@ -51,7 +51,7 @@ A relational database was created with multiple connected tables:
 
 ---
 
-## 📊 Feature Engineering
+## Feature Engineering
 - Subscription duration (days)  
 - Age group segmentation  
 - Watch time breakdown (year, month, weekday)  
@@ -60,7 +60,7 @@ A relational database was created with multiple connected tables:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Key insights explored:
 
 - Most watched content  
@@ -73,14 +73,14 @@ Key insights explored:
 
 ---
 
-## 🤖 Predictive Analysis
+## Predictive Analysis
 - Built a Linear Regression model
 - Forecasted future watch-time trends
 - Analyzed engagement growth patterns over time  
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 An interactive dashboard was built with:
 
 - KPI cards (Users, Content, Watch Time)  
@@ -93,7 +93,7 @@ An interactive dashboard was built with:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - Identified peak viewing hours and days  
 - Found most popular genres  
 - Analyzed user engagement behavior  
@@ -102,7 +102,7 @@ An interactive dashboard was built with:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 Netflix-Streaming-Analytics/
 │
 ├── SQL/
@@ -114,11 +114,11 @@ Netflix-Streaming-Analytics/
 
 ---
 
-## 🚀 Outcome
+## Outcome
 This project demonstrates a complete end-to-end data analytics pipeline — from data generation to business insights and interactive dashboard creation.
 
 ---
 
-## 👤 Author
+## Author
 Sushmita Dhital  
 Aspiring Data Analyst | SQL | Python | Power BI
